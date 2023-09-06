@@ -27,8 +27,7 @@
             }
         }
         
-        // Intentionally left out semicolon to create a soft syntax error
-        ArrayList<User> users = new ArrayList()
+        ArrayList<User> users = new ArrayList<>();
         users.add(new User("John", "john@example.com"));
         users.add(new User("Jane", "jane@example.com"));
         users.add(new User("Alice", "alice@example.com"));
