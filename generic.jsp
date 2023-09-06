@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <h1>Welcome to My JSP Page!</h1> SyntaxError <!-- Syntax Error on this line-->
+    <h1>Welcome to My JSP Page!</h1>
 
     <%
         // Simulated data (you would usually fetch this data from a database)
@@ -27,7 +27,8 @@
             }
         }
         
-        ArrayList<User> users = new ArrayList<>();
+        // Intentionally left out semicolon to create a soft syntax error
+        ArrayList<User> users = new ArrayList()
         users.add(new User("John", "john@example.com"));
         users.add(new User("Jane", "jane@example.com"));
         users.add(new User("Alice", "alice@example.com"));
