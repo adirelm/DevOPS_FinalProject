@@ -18,7 +18,7 @@
     <%
         // Simulated data (you would usually fetch this data from a database)
         class User {
-            String name
+            String name;
             String email;
             
             User(String name, String email) {
@@ -43,7 +43,7 @@
             </tr>
         </thead>
         <tbody>
-            <% for(User user : users) { %>
+            <% for(User user : users) { >
                 <tr>
                     <td><%= user.name %></td>
                     <td><%= user.email %></td>
