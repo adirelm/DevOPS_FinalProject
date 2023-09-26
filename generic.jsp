@@ -19,7 +19,7 @@
         // Simulated data (you would usually fetch this data from a database)
         class User {
             String name;
-            String email;
+            String email
             
             User(String name, String email) {
                 this.name = name;
