@@ -18,7 +18,7 @@
     <%
         // Simulated data (you would usually fetch this data from a database)
         class User {
-            String name;
+            String name
             String email;
             
             User(String name, String email) {
@@ -34,7 +34,7 @@
         users.add(new User("Bob", "bob@example.com"));
     %>
 
-    <h2>User List:</h1>
+    <h2>User List:</h2>
     <table>
         <thead>
             <tr>
