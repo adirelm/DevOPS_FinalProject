@@ -34,7 +34,7 @@
         users.add(new User("Bob", "bob@example.com"));
     %>
 
-    <h2>User List:</h2>
+    <h2>User List:</h1>
     <table>
         <thead>
             <tr>
